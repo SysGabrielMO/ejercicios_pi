@@ -8,7 +8,7 @@ users:
     groups: users, admin
     shell: /bin/bash
     ssh_authorized_keys:
-      - ssh-ed25519 AAAA... sustituye esta línea por tu clave pública
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCyBf1/5QUAG4+jUCanlmpzx81cBOLLr3rxDgpKa615IrKrkhHvBQg6ApQSk4v1GMnudRWNV328V98vIFqxW1eKmI2p5U6OAtLVFm7qI81u5GYn4FfBBKDldwCkymAieLt6fhURKaGnGPYECzsYMsajxH6kSoe45DF+Xi9fYnmC/qFTei2Zy8dYideI1kBqnzNfYpuOQl0GSeaDZDlBikakfXMmV//Vtcf4LZM+Jaafun6Lbxt9shuSGJ+wtyIo1U2SVZkSoRU0jy4fXyw3E/W/hsx7VWiPtVE3drFrQA60cKLUUsmaNV0umKQoFsIxOuUWhvEcaUTb7nsOxvb7L0ZXrMjSJRYjFnhPnHh9FMFOtNp62TF50Dx3jSGOyfNPaUQ1+N/ARWUrSMdfBEI9juhJkM4Ynmb70JVc0bSUTt9JRboBsF8yAj/1OZm3bSJaBFQsFIoePNQMm4ayCAThboCMK1AYS9A3eYJbjzwcrb3H/PbDs1K2kSn2Xy7x79rQO/R615oV/2/Ndv0rI67qlk9I78ekXmTa1dsKereKUP/gKs1Cn4hUuSO7K1a0vI2HZNtthw5TsI+eaCsgGec6OmZVwpUqfX81tZjaGYnsIxWH1+3pxVwKZgRECSEvIFSVeRdwx12wHtsEsAw8iWP4ISp6pUOMxg5gGBihlTpigTd7Ww== gabriel@debian-gabriel
 
 chpasswd:
   expire: False
